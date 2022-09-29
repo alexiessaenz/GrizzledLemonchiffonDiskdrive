@@ -1,13 +1,14 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Persona persona = new Persona();
+    persona.setEdad(18);
   }
 }
 
 class Persona {
-  int edad;
-  String nombre;
-  String telefono;
+  private int edad;
+  private String nombre;
+  private String telefono;
 
   public void setEdad(int edad){
     this.edad = edad;
